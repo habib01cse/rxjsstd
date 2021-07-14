@@ -6,7 +6,7 @@ import { PromiseComponent } from './promise/promise.component';
 const routes: Routes = [
   { 
       path: '', 
-      redirectTo: 'home', 
+      redirectTo: 'promise', 
       pathMatch: 'full',
   },
   {
@@ -19,7 +19,7 @@ const routes: Routes = [
     component: PromiseComponent
   },
 
-  { path: '**', redirectTo: 'home' }
+  { path: '**', redirectTo: 'promise' }
 
 ];
 
