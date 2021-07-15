@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-sm-4">
+        <strong>Ex -01: With Promise</strong>
+        <hr>
+        <button class="btn btn-primary" (click)="onClickPromise()">Buy Laptop</button>
+        <hr>
+        <div>{{ resThen }}</div>
+    </div>
+
+    <div class="col-sm-4">
+        <strong>Ex -02: With Async/Await </strong>
+        <hr>
+        <button class="btn btn-primary" (click)="onClickAsyncAwait()">Buy Laptop</button>
+        <hr>
+        <div>{{ resAwait }}</div>
+    </div>
+
+    <div class="col-sm-4">
+        <strong>Ex -03: With Fetch Api</strong>
+        <hr>
+        <button class="btn btn-primary" (click)="onClickApi()">Post data</button>
+        <hr>
+        <div>{{ resApi }}</div>
+    </div>
+    
+</div>

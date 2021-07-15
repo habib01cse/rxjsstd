@@ -8,12 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { LayoutModule } from './layout/layout.module';
 import { PromiseComponent } from './promise/promise.component';
 import { HomeComponent } from './home/home.component';
+import { AsyncAwaitComponent } from './async-await/async-await.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    PromiseComponent,
-    HomeComponent
+    AppComponent
+    , PromiseComponent
+    , HomeComponent
+    , AsyncAwaitComponent
   ],
   imports: [
     BrowserModule
