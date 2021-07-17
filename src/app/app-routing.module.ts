@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { PromiseComponent } from './promise/promise.component';
 import { AsyncAwaitComponent } from './async-await/async-await.component';
+import { ObservableComponent } from './observable/observable.component';
 
 const routes: Routes = [
   { 
@@ -14,7 +15,14 @@ const routes: Routes = [
     path: 'home',
     component: HomeComponent
   },
-  
+  {
+    path: 'promise',
+    component: PromiseComponent
+  },
+  {
+    path: 'observable',
+    component: ObservableComponent
+  },
   {
     path: 'async-await',
     component: AsyncAwaitComponent

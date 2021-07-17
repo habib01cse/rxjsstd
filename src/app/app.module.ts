@@ -9,6 +9,7 @@ import { LayoutModule } from './layout/layout.module';
 import { PromiseComponent } from './promise/promise.component';
 import { HomeComponent } from './home/home.component';
 import { AsyncAwaitComponent } from './async-await/async-await.component';
+import { ObservableComponent } from './observable/observable.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AsyncAwaitComponent } from './async-await/async-await.component';
     , PromiseComponent
     , HomeComponent
     , AsyncAwaitComponent
+    , ObservableComponent
   ],
   imports: [
     BrowserModule
