@@ -19,6 +19,7 @@ const routes: Routes = [
     path: 'home',
     component: HomeComponent
   },
+
   {
     path: 'promise',
     component: PromiseComponent
@@ -39,6 +40,8 @@ const routes: Routes = [
   },
   
   { path: '**', redirectTo: 'promise' }
+  
+  //{ path: '**', redirectTo: 'home' }
 
 ];
 
