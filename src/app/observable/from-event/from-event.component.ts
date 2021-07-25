@@ -14,7 +14,7 @@ export class FromEventComponent implements OnInit, AfterViewInit {
   @ViewChild('addBtn') addBtn:ElementRef;
 
   ngOnInit(): void {  
-    
+
   }
 
   ngAfterViewInit(){
