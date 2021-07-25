@@ -15,9 +15,10 @@
 }
 
 .list li a{
-    height: 120px;
-    padding: 47px 100px;
+    padding: 50px 5px;
     border: 1px solid #ddd;
     border-radius: 8px;
     display: block;
+    text-align: center;
+    width: 250px;
 }
