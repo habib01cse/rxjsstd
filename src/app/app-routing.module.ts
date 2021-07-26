@@ -9,6 +9,7 @@ import { FromEventComponent } from './observable/from-event/from-event.component
 import { IntervalComponent } from './observable/interval/interval.component';
 import { OfFromComponent } from './observable/of-from/of-from.component';
 import { ToArrayComponent } from './observable/to-array/to-array.component';
+import { CustObservableComponent } from './observable/cust-observable/cust-observable.component';
 
 const routes: Routes = [
   { 
@@ -34,6 +35,7 @@ const routes: Routes = [
       {path: 'interval', component: IntervalComponent},
       {path: 'of-from', component: OfFromComponent},
       {path: 'to-array', component: ToArrayComponent},
+      {path: 'cust-observable', component: CustObservableComponent},
     ]
   },
   {
