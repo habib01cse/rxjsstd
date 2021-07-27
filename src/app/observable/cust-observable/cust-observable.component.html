@@ -5,16 +5,36 @@
         <div class="col-sm-6">
             <strong>Ex - 1 (Manual)</strong>
             <hr>
-            <ul id="example1" class="tachList" [ngClass]="techStatus == 'completed' ? 'bg-success' : techStatus == 'error' ? 'bg-danger' : '' "></ul>
+            <ul id="container1" class="tachList" [ngClass]="techStatus1 == 'completed' ? 'bg-success' : techStatus1 == 'error' ? 'bg-danger' : '' "></ul>
         </div>
 
         <div class="col-sm-6">
             <strong>Ex - 2 (Custom Interval Observable)</strong>
             <hr>
-            <ul>
-                <li>Angualr</li>
-            </ul>
+            <ul id="container2"  [ngClass]="techStatus2 == 'completed' ? 'bg-success' : techStatus2 == 'error' ? 'bg-danger' : '' "></ul>
         </div>
 
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <br>
+            <strong>Ex - 2 (Random Names)</strong>
+            <br>
+            <br>
+
+            <p class="bg-light px-2 py-3 border rounded">
+                <strong>Random Names: </strong>
+                'Habib', 'Abdullah', 'Azin', 'Hiya', 'Hrioy'
+            </p>
+            <br>
+            <p>Current Name: <strong class="text-success">{{names}}</strong></p>
+            <span class="badge badge-sucess"
+                [ngClass]="nameStatus == 'completed' ? 'badge-success': nameStatus == 'error' ? 'badge-danger': 'badge-primary'"
+            >{{nameStatus == 'completed' ? 'Complete': nameStatus == 'error' ? 'Error': 'Running'}}</span>
+
+            <hr>
+        </div>
     </div>
 </div>
