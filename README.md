@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## No Impelment rxjs operators
+Pluck, Tap, take, takeL, TakeUntil, retry, retryWhen, scan, delay 
+
+## Implement ngx-loadingbar 
+DebounceTime & DistinctUntilChanged in Rxjs Lecture 20 

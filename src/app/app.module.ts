@@ -16,6 +16,8 @@ import { IntervalComponent } from './observable/interval/interval.component';
 import { OfFromComponent } from './observable/of-from/of-from.component';
 import { ToArrayComponent } from './observable/to-array/to-array.component';
 import { CustObservableComponent } from './observable/cust-observable/cust-observable.component';
+import { MapComponent } from './observable/map/map.component';
+import { DebounceTimeComponent } from './observable/debounce-time/debounce-time.component';
    
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { CustObservableComponent } from './observable/cust-observable/cust-obser
     , OfFromComponent
     , ToArrayComponent
     , CustObservableComponent
+    , MapComponent, DebounceTimeComponent
 
   ],
   imports: [
