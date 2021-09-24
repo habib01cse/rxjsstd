@@ -18,6 +18,13 @@ import { ToArrayComponent } from './observable/to-array/to-array.component';
 import { CustObservableComponent } from './observable/cust-observable/cust-observable.component';
 import { MapComponent } from './observable/map/map.component';
 import { DebounceTimeComponent } from './observable/debounce-time/debounce-time.component';
+<<<<<<< HEAD
+=======
+import { SubjectComponent } from './observable/subject/subject.component';
+import { CompaComponent } from './comps/compa/compa.component';
+import { CompbComponent } from './comps/compb/compb.component';
+import { CompcComponent } from './comps/compc/compc.component';
+>>>>>>> 0645ecfbc1aebf620da015710be75c563b03fe52
    
 @NgModule({
   declarations: [
@@ -32,7 +39,11 @@ import { DebounceTimeComponent } from './observable/debounce-time/debounce-time.
     , OfFromComponent
     , ToArrayComponent
     , CustObservableComponent
+<<<<<<< HEAD
     , MapComponent, DebounceTimeComponent
+=======
+    , MapComponent, DebounceTimeComponent, SubjectComponent, CompaComponent, CompbComponent, CompcComponent
+>>>>>>> 0645ecfbc1aebf620da015710be75c563b03fe52
 
   ],
   imports: [

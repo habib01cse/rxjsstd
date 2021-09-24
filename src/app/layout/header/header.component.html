@@ -17,7 +17,9 @@
             <a class="nav-link" routerLink="/promise">Promise</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" routerLink="/observable">Observable</a>
+            <a class="nav-link" routerLink="/observable">Observable
+              <strong *ngIf="exclusive" class="badge badge-primary">Exclusive</strong> 
+            </a>
         </li>
       
  
