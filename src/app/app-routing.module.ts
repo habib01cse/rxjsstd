@@ -12,7 +12,10 @@ import { ToArrayComponent } from './observable/to-array/to-array.component';
 import { CustObservableComponent } from './observable/cust-observable/cust-observable.component';
 import { MapComponent } from './observable/map/map.component';
 import { DebounceTimeComponent } from './observable/debounce-time/debounce-time.component';
+<<<<<<< HEAD
+=======
 import { SubjectComponent } from './observable/subject/subject.component';
+>>>>>>> 0645ecfbc1aebf620da015710be75c563b03fe52
 
 const routes: Routes = [
   { 
@@ -41,7 +44,10 @@ const routes: Routes = [
       {path: 'cust-observable', component: CustObservableComponent},
       {path: 'map', component: MapComponent},
       {path: 'debounce-time', component: DebounceTimeComponent},
+<<<<<<< HEAD
+=======
       {path: 'subject', component: SubjectComponent},
+>>>>>>> 0645ecfbc1aebf620da015710be75c563b03fe52
     ]
   },
   {
