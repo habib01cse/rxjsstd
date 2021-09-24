@@ -12,6 +12,7 @@
 .list li{
     display: inline-block;
     margin-right: 20px; 
+    margin-top: 20px;
 }
 
 .list li a{
